@@ -281,10 +281,11 @@ function drawChart(label, data) {
             },
 
             scales: {
+                //Y-akse
                 yAxes: [
                     {
                         scaleLabel: {
-                            display: true,
+                            display: false,
                             labelString: "Value",
             
                         },
@@ -295,9 +296,10 @@ function drawChart(label, data) {
                     }
                 ],
                 xAxes: [
+                    //X-akse
                     {
                         scaleLabel: {
-                            display: true,
+                            display: false,
                             labelString: "Name",
             
                         },
